@@ -1,0 +1,111 @@
+:root {
+  primary-color: #002662, #285ba0, #538dcf, #c5e0f7;
+  secondary-color: #36aba5, #63ccbd, #87e5d0, #b3f6e1, #d8faec;
+  text-dark: #1d2433, #4a505c, #6c717a;
+  text-light: #fff, #c1c2c4, #9d9ea1;
+  bg: #fff, #f8f9fc, #f1f3f9, #f1f1f1;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+}
+
+#pemesanan {
+  justify-content: center;
+  text-align: center;
+  padding-left: 95px;
+}
+
+#pemesanan .form .mb-3 {
+  width: 290px;
+}
+
+#pesan .container {
+  position: relative;
+}
+
+#pesan .ket {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 16px;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  .profile img {
+    display: none;
+  }
+
+  .navbar-brand img {
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 40px;
+    z-index: 99;
+  }
+
+  .navbar-toggler-icon {
+    position: fixed;
+    top: 15px;
+    right: 40px;
+    z-index: 99999;
+  }
+
+  .collapse.navbar-collapse {
+    position: fixed;
+    top: 50px;
+    right: 40px;
+    z-index: 9999;
+    background-color: #f8f9fc;
+    display: none;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .navbar-expand-lg .navbar-toggler:not(.collapsed) + .navbar-collapse {
+    display: block;
+  }
+
+  #pesan .container .gambar img {
+    display: none;
+  }
+
+  #pemesanan {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  #pemesanan .mb-3 {
+    margin-bottom: 10px;
+  }
+
+  #pemesanan .container2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .form {
+    align-items: center;
+  }
+
+  .footer {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .ket i {
+    display: none;
+  }
+
+  #pemesanan .form .mb-3 {
+    width: 100%;
+  }
+
+  #pemesanan .button .tombol .container {
+    width: 100%;
+  }
+}
